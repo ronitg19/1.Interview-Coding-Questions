@@ -1,6 +1,6 @@
 package com.programs;
 
-public class PerfectNumber {
+public class P8_PerfectNumber {
 
 	public static void main(String[] args) {
 		int input=28;

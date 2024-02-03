@@ -1,6 +1,6 @@
 package com.programs;
 import java.util.Scanner;
-public class PrimeNumber {
+public class Q2_PrimeNumber {
 
 	public static void main(String[] args) {
 		Scanner scanner = new Scanner(System.in);
@@ -15,10 +15,10 @@ public class PrimeNumber {
 				count++;
 			}
 		}
-		if(count>2) {
-				System.out.println(number+" is not prime number");
+		if(count==2) {
+				System.out.println(number+" is  prime number");
 		}else{
-			    System.out.println(number+" is a prime number");
+			    System.out.println(number+" is not prime number");
 		}
 		
 		}else{

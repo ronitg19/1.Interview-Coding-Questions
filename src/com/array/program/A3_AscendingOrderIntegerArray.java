@@ -1,6 +1,6 @@
 package com.array.program;
 
-public class AscendingOrderIntegerArray {
+public class A3_AscendingOrderIntegerArray {
 
 	public static void main(String[] args) {
 		int a[] = new int[5];

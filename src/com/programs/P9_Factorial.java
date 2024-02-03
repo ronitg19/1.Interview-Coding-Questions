@@ -1,6 +1,6 @@
 package com.programs;
 
-public class Factorial {
+public class P9_Factorial {
 
 	public static void main(String[] args) {
 		int num=5;

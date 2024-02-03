@@ -1,6 +1,6 @@
 package com.programs;
 
-public class FactorialByRecursion {
+public class Q1_FactorialByRecursion {
     public static int getFactorial(int n) {
     	if(n==0) {
     		return 1;
@@ -9,7 +9,8 @@ public class FactorialByRecursion {
     	}	
     }
 	public static void main(String[] args) {
-		int factorial = getFactorial(0);
-        System.out.println("Factorial of number is " +factorial);
+		int num = 5;
+		int factorial = getFactorial(num);
+        System.out.println("Factorial of "+num+" is " +factorial);
 	}
 }

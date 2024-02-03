@@ -9,7 +9,7 @@ public class StarPattern3 {
 			}	
 		System.out.println();	
 		}
-	    for(int i=1; i<=4; i++) {
+	    for(int i=1; i<=3; i++) {
 		    for(int k=3; k>=i; k--) {
 			System.out.print("*");
 		   }

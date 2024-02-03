@@ -1,6 +1,6 @@
 package com.array.program;
 
-public class AscendingOrderCharacterArray {
+public class A4_AscendingOrderCharacterArray {
 
 	public static void main(String args []) {
 		
@@ -15,12 +15,13 @@ public class AscendingOrderCharacterArray {
 			 }
 		 }	
 		}
-		System.out.println("Elements in Array in Ascending order are..");
+		System.out.println("Elements in Array in Ascending order are..(By forEach loop)");
 		//by for each loop
 		for(char x : ch) {
 			System.out.print(x +" ");
 		}
 		//note: We can print only character array directly without using for each loop 
-		System.out.print(ch);
+		System.out.println("\nElements in Array in Ascending order are..(Direct Print)");
+		System.out.println(ch);
 	}
 }

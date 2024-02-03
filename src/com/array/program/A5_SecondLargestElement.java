@@ -1,6 +1,6 @@
 package com.array.program;
 
-public class SecondLargestElement {
+public class A5_SecondLargestElement {
 
 	public static void main(String[] args) {
 		int a[] = {2,3,4,1,6,5};

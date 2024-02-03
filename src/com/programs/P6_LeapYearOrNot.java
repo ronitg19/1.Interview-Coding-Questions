@@ -1,6 +1,6 @@
 package com.programs;
 
-public class LeapYearOrNot {
+public class P6_LeapYearOrNot {
 
 	public static void main(String[] args) {
 		int year=2024;

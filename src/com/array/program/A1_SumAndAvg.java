@@ -1,6 +1,6 @@
 package com.array.program;
 
-public class SumAndAvg {
+public class A1_SumAndAvg {
 
 	public static void main(String[] args) {
 		int a[] = {1,2,3,4,5};

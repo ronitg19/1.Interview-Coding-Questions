@@ -1,6 +1,6 @@
 package com.programs;
 
-public class ArmstrongNumber {
+public class P4_ArmstrongNumber {
 
 	public static void main(String[] args) {
 		int input=153;
