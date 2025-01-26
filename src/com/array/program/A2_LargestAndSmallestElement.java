@@ -10,7 +10,7 @@ public class A2_LargestAndSmallestElement {
 		a[1]=4;
 		a[2]=3;
 		a[3]=2;
-		a[4]=1;
+		a[4]=6;
 		int max = a[0]; //is 2 is greater than max?
 		int min = a[0]; // is 2 is less than min?
 		System.out.println("Given Array ");

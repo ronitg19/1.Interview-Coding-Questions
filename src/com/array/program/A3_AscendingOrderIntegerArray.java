@@ -3,15 +3,16 @@ package com.array.program;
 public class A3_AscendingOrderIntegerArray {
 
 	public static void main(String[] args) {
-		int a[] = new int[5];
-		a[0] = 3;
+		int a[] = new int[3];
+		a[0] = 5;
 		a[1] = 4;
-		a[2] = 5;
-		a[4] = 2;
-		a[3] = 1;
+		a[2] = 3;
+		
 		int temp = 0;
 		
-		for(int i=0; i<a.length; i++) {
+		for(int i=0; i<a.length-1; i++) //here we can take i<a.length also 
+			//but it will iterate loop one more time which is useless
+		{
 			for(int j=i+1; j<a.length; j++) {
 				if(a[i] > a[j]) {
 					temp = a[i];
